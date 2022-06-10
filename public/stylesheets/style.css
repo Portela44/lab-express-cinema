@@ -1,16 +1,18 @@
 body {
-  padding: 50px;
+  margin:0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-image: url(../images/cinema.jpg);
   background-repeat: no-repeat;
   background-color: black;
 }
 
+/* Index-Page */
+
 #main-menu {
   padding-left:500px;
 }
 
-h1 {
+#main-menu > h1 {
   font-size: 4em;
   color:white;
   width: 300px;
@@ -18,9 +20,26 @@ h1 {
   left: -5px;
 }
 
-button {
+a {
   color: darkblue;
   background-color: white;
   border-radius: 20px;
   padding: 10px 20px;
+  text-decoration: none;
+}
+
+/* Movies-Page */
+
+.item-list {
+  background-color: white;
+}
+
+.item-list > h1 {
+  margin:0px;
+  padding: 10px 30px;
+}
+
+.item-list > p {
+  margin:0px;
+  padding: 10px 30px;
 }
