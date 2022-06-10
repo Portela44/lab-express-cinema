@@ -43,3 +43,12 @@ a {
   margin:0px;
   padding: 10px 30px;
 }
+
+/* Details-Page */
+.details {
+  margin:0px;
+  background-color:white;
+  height:680px;
+}
+
+#details > 
