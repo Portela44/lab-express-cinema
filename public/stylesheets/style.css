@@ -21,10 +21,12 @@ body {
 }
 
 a {
-  color: darkblue;
-  background-color: white;
-  border-radius: 20px;
-  padding: 10px 20px;
+  background-color: lightcoral;
+  font-family: sans-serif;
+  color: white;
+  padding: 5px 10px;
+  opacity: 1;
+  border-radius: 5%;
   text-decoration: none;
 }
 
@@ -44,11 +46,23 @@ a {
   padding: 10px 30px;
 }
 
+#movie-item {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 25px;
+}
+
+#list-order {
+  display:flex;
+  flex-wrap: wrap;
+}
+
 /* Details-Page */
 .details {
   margin:0px;
   background-color:white;
   height:680px;
 }
-
-#details > 

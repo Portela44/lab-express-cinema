@@ -1,10 +1,14 @@
 <section class="item-list">
     <h1>Ironhack Cinema</h1>
     <p>Click on the movie to check the showtimes!</p>
-        {{#each movies}}
-            <img src="{{image}}" alt="{{title}}"/>
-            <p>{{title}}</p>
-            <a href="/movies/{{_id}}">See More</a>
-        {{/each}}
+        <div id="list-order">
+            {{#each movies}}
+                <div Id="movie-item">   
+                    <img src="{{image}}" alt="{{title}}"/>
+                    <p>{{title}}</p>
+                    <a href="/movies/{{_id}}">See More</a>
+                </div>
+            {{/each}}
+        </div>
 </section>    
     
