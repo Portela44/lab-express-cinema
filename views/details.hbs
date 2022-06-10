@@ -13,7 +13,9 @@
                     <li>{{stars.[2]}}</li>
                 </ul>
                 <p>{{description}}</p>
-                <p>{{shotimes}}</p>
+                {{#each showtimes}}
+                <span>{{this}}|</span>
+                {{/each}}
             </article>
         </div>
     {{/with}}
